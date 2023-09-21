@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name '*.mp3' -exec cp --parents \{\} ~/ostechnix \
+cp -r .*.html ..
