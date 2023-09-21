@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -iname '*.html' -exec cp .. \{\} ~/ostechnix \
+find . -name '*.mp3' -exec cp --parents \{\} ~/ostechnix \
