@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# display The content of the current directory In a list format Where only the part of the name after the first dash is displayed 
+#!/usr/bin/env bash
+# displays The content of the current directory
+for file in *
+do
+    if [[ -f $file && ! $file == .* ]]
+    then
+        filename=$(basename "$file")
+        suffix="${filename#*-}"
+        echo "$suffix"
+    fi
+done
