@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # we are going to print Best School 10 times
-for i in {1..9}
+for i in {0..9}
 do 
 	echo "BEST SCHOOL"
 done
