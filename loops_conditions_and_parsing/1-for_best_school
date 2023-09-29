@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # we are going to print Best School 10 times
-for_in {0..9}
-do 
- echo "BEST SCHOOL"
-done
+for _ in {1..10}
+do
+	       echo "Best School" 
+       done
+
