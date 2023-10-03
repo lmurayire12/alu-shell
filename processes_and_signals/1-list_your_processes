@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #command to display all currently running processes
-ls ps -ef head -50
+ps -ef
