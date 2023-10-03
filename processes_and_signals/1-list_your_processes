@@ -2,6 +2,6 @@
 #command to display all currently running processes
 ps -ef
 #display the process in user oriented	
-ps -ef
+ps -aux
 #display pricess hierachy
 pstree
