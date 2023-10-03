@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#display PID with it's name only bash files
+echo -e "$$ $0"
