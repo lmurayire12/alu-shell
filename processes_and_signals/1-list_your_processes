@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 #command to display all currently running processes
-ps -aux
+ps -ef
+#display the process in user oriented	
+ps -ef
+#display pricess hierachy
+pstree
