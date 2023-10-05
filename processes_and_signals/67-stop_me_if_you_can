@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-#kill 4 infinite and beyond without using kill or killall
+#kill 7-highlander without using kill or killall
 pkill -f 7-highlander
